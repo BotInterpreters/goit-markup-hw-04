@@ -361,11 +361,11 @@ header {
     align-items: center;
     justify-content: center;
     color: #8e8f99;
-    fill: var(--social-icon)
+    fill: none
 }
 
 .customer-svg {
-    fill: var(--background-color)    
+    fill: none    
 }
 
 .customer-link:hover,
