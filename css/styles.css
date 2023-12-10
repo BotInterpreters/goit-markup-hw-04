@@ -366,11 +366,12 @@ customer-heading {
 
 .footer-container {
     align-items: baseline;
+    display: flex;
+
 }
 
 .footer-details{
     margin-right: 120px;
-    display: flex;
 }
 
 .social-media-text {
@@ -380,6 +381,31 @@ customer-heading {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-links-items {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-links{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.footer-links:hover,
+.footer-links:active {
+    background-color: #31d0aa;
 }
 
 .footer-logo {
