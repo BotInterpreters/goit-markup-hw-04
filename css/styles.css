@@ -34,6 +34,10 @@ img {
     width: 100%;
 }
 
+header {
+    box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -134,18 +138,16 @@ img {
     padding: 188px 0;
     width: 100%;
     max-width: 1440px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url('../images/people-office.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/people-office.png');
 
 }
 
 .hero-container {
     max-width: 496px;
-
-  
 
 }
 
@@ -329,7 +331,7 @@ img {
     padding: 120px 0;
 }
 
-customer-heading {
+.customer-heading {
     font-size: 36px;
     line-height: 1.11;
     color: #2e2f42;
@@ -465,11 +467,15 @@ customer-heading {
     background-color: #404BBF;
 }
 
-.portfolio-link:focus {
+.portfolio-link:hover {
  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);     
 }
 
 .portfolio-link:active {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
