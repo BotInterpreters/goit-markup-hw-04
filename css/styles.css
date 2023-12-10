@@ -304,8 +304,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--social-icon)
-
 }
 
 .social-media-link:hover,
