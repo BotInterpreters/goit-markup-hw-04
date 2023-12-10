@@ -404,7 +404,7 @@ customer-heading {
 }
 
 .footer-links:hover,
-.footer-links:active {
+.footer-links:focus {
     background-color: #31d0aa;
 }
 
@@ -439,15 +439,18 @@ customer-heading {
 
 .portfolio-button:hover {
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-button:focus {
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
 .portfolio-link {
     text-decoration: none;
+    display: block;
 }
 
 .portfolio-button:hover {
@@ -455,9 +458,14 @@ customer-heading {
 }
 
 .portfolio-button:focus,
-portfolio-button:active {
+.portfolio-button:active {
     color: #FFFFFF;
     background-color: #404BBF;
+}
+
+.portfolio-link:focus,
+.portfolio-link:active {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .header-second-list {
