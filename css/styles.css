@@ -8,6 +8,7 @@
     --background-color: #FFFFFF;
     --social-icon: #f4f4fd
     --primary-text-color: #555555;
+    --currentColor: none;
 }
 
 .visually-hidden {
@@ -365,7 +366,7 @@ header {
 }
 
 .customer-svg {
-    fill: none    
+    fill: var(--currentColor)    
 }
 
 .customer-link:hover,
@@ -520,4 +521,8 @@ header {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.footer-svg {
+    fill: var(--social-icon);
 }
