@@ -364,7 +364,7 @@ header {
 }
 
 .customer-svg {
-    fill: var(--currentColor)    
+    fill: currentColor   
 }
 
 .customer-link:hover,
@@ -522,5 +522,5 @@ header {
 }
 
 .footer-svg {
-    fill: var(--social-icon);
+    fill: currentColor;
 }
