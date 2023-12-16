@@ -293,7 +293,7 @@ header {
 }
 
 .team-svg {
-    fill: var(--social-icon)
+    fill: #f4f4fd
 }
 
 .social-media-link {
